@@ -13,4 +13,10 @@ public class WelcomeRestController {
 		return msg;
 	}
 
+	@GetMapping("/hello")
+	public String hello() {
+
+		String msg = "This Is from Hello Method...";
+		return msg;
+	}
 }
